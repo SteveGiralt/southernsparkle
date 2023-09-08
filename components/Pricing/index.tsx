@@ -11,13 +11,13 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Our Services"
+          paragraph="Experience the transformation with our range of personalized beauty and wellness services at Southern Sparkle Aesthetics."
           center
           width="665px"
         />
 
-        <div className="w-full">
+        {/* <div className="w-full">
           <div
             className="wow fadeInUp mb-8 flex justify-center md:mb-12 lg:mb-16"
             data-wow-delay=".1s"
@@ -58,47 +58,56 @@ const Pricing = () => {
               Yearly
             </span>
           </div>
-        </div>
+        </div> */}
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
+            packageName="IV Therapy"
             price={isMonthly ? "40" : "120"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Recharge your vitality and enhance your well-being."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Boosts Energy and Vitality" status="active" />
+            <OfferList text="Revitalizes Skin and Complexion" status="active" />
+            <OfferList text="Enhances Immune System" status="active" />
+            <OfferList
+              text="Relieves Dehydration and Fatigue"
+              status="active"
+            />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
+            packageName="Neurotoxins"
             price={isMonthly ? "399" : "789"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Rediscover Youthful Radiance with Neurotoxin Treatments."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Reduces Fine Lines and Wrinkles" status="active" />
+            <OfferList
+              text="Minimizes Facial Muscle Contractions"
+              status="active"
+            />
+            <OfferList text="Restores a Youthful Appearance" status="active" />
+            <OfferList
+              text="Non-Invasive Anti-Aging Solution"
+              status="active"
+            />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
+            packageName="Dermal Fillers"
             price={isMonthly ? "589" : "999"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Revitalize Your Natural Beauty with Dermal Fillers."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="Restores Facial Volume" status="active" />
+            <OfferList
+              text="Smoothes Wrinkles and Fine Lines"
+              status="active"
+            />
+            <OfferList text="Enhances Lips and Cheeks" status="active" />
+            <OfferList
+              text="Non-Surgical Facial Rejuvenation"
+              status="active"
+            />
           </PricingBox>
         </div>
       </div>
