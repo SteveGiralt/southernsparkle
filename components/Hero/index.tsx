@@ -15,6 +15,14 @@ const Hero = () => {
                 className="wow fadeInUp mx-auto max-w-[800px] text-center"
                 data-wow-delay=".2s"
               >
+                <div className="mt-[-200px] mb-[-170px] flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                  <Image
+                    src="/images/logo/logo-hero.png"
+                    alt="Southern Sparkle Logo"
+                    height={500}
+                    width={500}
+                  />
+                </div>
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Southern Sparkle Aesthetics
                 </h1>
@@ -26,14 +34,7 @@ const Hero = () => {
                   Relax in our luxurious sanctuary and discover your unique,
                   natural beauty. Your journey to self-discovery starts here.
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Image
-                    src="/images/about/renee.jpg"
-                    alt="Photo of Renee"
-                    height={960}
-                    width={640}
-                  />
-                </div>
+
                 {/* <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://nextjstemplates.com/templates/saas-starter-startup"
