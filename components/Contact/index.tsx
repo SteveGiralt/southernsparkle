@@ -1,4 +1,5 @@
-import NewsLatterBox from "./NewsLatterBox";
+// import NewsLatterBox from "./NewsLatterBox";
+import Image from "next/image";
 
 const Contact = () => {
   return (
@@ -12,10 +13,10 @@ const Contact = () => {
               "
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-                Need Help? Open a Ticket
+                Ready To Begin?
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-                Our support team will get back to you ASAP via email.
+                We would love to hear from you!
               </p>
               <form>
                 <div className="-mx-4 flex flex-wrap">
@@ -67,7 +68,7 @@ const Contact = () => {
                   </div>
                   <div className="w-full px-4">
                     <button className="rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-                      Submit Ticket
+                      Send!
                     </button>
                   </div>
                 </div>
@@ -75,7 +76,12 @@ const Contact = () => {
             </div>
           </div>
           <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
-            <NewsLatterBox />
+            <Image
+              src="/images/contact/contact.jpg"
+              height={960}
+              width={640}
+              alt="Contact Us"
+            />
           </div>
         </div>
       </div>

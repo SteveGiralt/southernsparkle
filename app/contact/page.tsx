@@ -5,8 +5,8 @@ const ContactPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Booking and Contact"
+        description="Ready to embark on your journey to beauty and well-being? Contact us today to book your appointment and experience the Southern Sparkle Aesthetics difference!"
       />
 
       <Contact />
