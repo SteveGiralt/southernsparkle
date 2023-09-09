@@ -24,12 +24,18 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Meet Renee, Your Aesthetic Maven and Founder"
+                paragraph="Renee is the heart and soul behind Southern Sparkle Aesthetics. With a passion for enhancing natural beauty and promoting holistic wellness, she brings a unique blend of expertise and compassion to every client's journey.
+                
+                As a skilled nurse injector, Renee has honed her craft to perfection, specializing in neurotoxins and dermal fillers. Her commitment to precision and safety ensures that each treatment is a work of art, restoring confidence and revealing the best version of you.
+                
+                Beyond her technical prowess, Renee is a warm and caring professional who believes in the power of personalized care. She listens attentively to your desires, ensuring that every visit is a tailored experience, just for you.
+                
+                With Renee as your guide, you're not just a client; you're a cherished individual on a path to timeless beauty and well-being. Discover the Southern Sparkle difference with Renee, where every treatment is a celebration of your unique sparkle."
                 mb="44px"
               />
 
-              <div
+              {/* <div
                 className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
@@ -46,7 +52,7 @@ const AboutSectionOne = () => {
                     <List text="Developer friendly" />
                   </div>
                 </div>
-              </div>
+              </div>*/}
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
@@ -55,9 +61,10 @@ const AboutSectionOne = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
-                  fill
+                  src="/images/about/renee2.jpg"
+                  alt="About Renee"
+                  height={960}
+                  width={640}
                   className="mx-auto max-w-full lg:mr-0"
                 />
               </div>
