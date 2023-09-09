@@ -26,6 +26,33 @@ export default function Head() {
         href="/favicon-16x16.png"
       />
       <link rel="manifest" href="/site.webmanifest" />
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://southernsparkle.vercel.app/" />
+      <meta property="og:title" content="Southern Sparkle Aesthetics" />
+      <meta
+        property="og:description"
+        content="Your Destination for Timeless Beauty and Holistic Wellness – Discover personalized treatments, from IV therapy to dermal fillers, that bring out your inner radiance."
+      />
+      <meta
+        property="og:image"
+        content="https://southernsparkle.vercel.app/android-chrome-512x512.png"
+      />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta
+        property="twitter:url"
+        content="https://southernsparkle.vercel.app/"
+      />
+      <meta property="twitter:title" content="Southern Sparkle Aesthetics" />
+      <meta
+        property="twitter:description"
+        content="Your Destination for Timeless Beauty and Holistic Wellness – Discover personalized treatments, from IV therapy to dermal fillers, that bring out your inner radiance."
+      />
+      <meta
+        property="twitter:image"
+        content="https://southernsparkle.vercel.app/android-chrome-512x512.png"
+      />
     </>
   );
 }
