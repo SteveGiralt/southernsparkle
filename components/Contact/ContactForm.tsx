@@ -1,7 +1,10 @@
 "use client";
 
-const ContactForm = (props: { children: React.ReactNode }) => {
-  const { children } = props;
+const ContactForm = (props: {
+  children: React.ReactNode;
+  onSent: (result: any) => void;
+}) => {
+  const { onSent, children } = props;
   const handleSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -21,7 +24,7 @@ const ContactForm = (props: { children: React.ReactNode }) => {
     });
     const result = await response.json();
     if (result.success) {
-      console.log(result);
+      onSent(result);
     }
   };
 
