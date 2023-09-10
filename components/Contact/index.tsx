@@ -1,5 +1,5 @@
-// import NewsLatterBox from "./NewsLatterBox";
 import Image from "next/image";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
@@ -18,7 +18,7 @@ const Contact = () => {
               <p className="mb-12 text-base font-medium text-body-color">
                 We would love to hear from you!
               </p>
-              <form>
+              <ContactForm>
                 <div className="-mx-4 flex flex-wrap">
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
@@ -72,7 +72,7 @@ const Contact = () => {
                     </button>
                   </div>
                 </div>
-              </form>
+              </ContactForm>
             </div>
           </div>
           <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
