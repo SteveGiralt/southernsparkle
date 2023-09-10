@@ -86,7 +86,7 @@ const Contact = () => {
                     Thanks!
                   </h2>
                   <p className="mb-12 text-base font-medium text-body-color">
-                    We'll Be In Touch Soon!
+                    We&apos;ll Be In Touch Soon!
                   </p>
                 </>
               )}
