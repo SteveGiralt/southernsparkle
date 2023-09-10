@@ -1,43 +1,18 @@
-# Startup - Free Next.js Startup Website Template
 
-Startup free, open-source, and premium-quality startup website template for Next.js comes with everything you need to launch a startup, business, or SaaS website, including all essential sections, components, and pages.
+Welcome to the Southern Sparkle Aesthetics website repository! 🌟
 
-If you're looking for a high-quality and visually appealing, feature-rich Next.js Template for your next startup, SaaS, or business website, this is the perfect choice and starting point for you!
+## Overview
 
-### ✨ Key Features
-- Crafted for Startup and SaaS Business
-- Next.js 13 and Tailwind CSS
-- All Essential Business Sections and Pages
-- High-quality and Clean Design
-- Dark and Light Version
-- TypeScript Support
-and Much More ...
+This website is designed to showcase the exceptional services offered by Southern Sparkle Aesthetics, an aesthetician business specializing in beauty and wellness treatments. It leverages the power of modern web technologies, including React 18, Next.js 13, and Tailwind CSS, to provide a seamless and visually appealing user experience. One of its standout features is the Light/Dark mode toggle, allowing users to customize their browsing experience.
 
-### [🔥 Get Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+**Live Website**: [southernsparkle.me](https://southernsparkle.me)
 
-[![Startup Pro](https://cdn.nextjstemplates.com/Startup-Pro---Next.js-Starter-Template-for-SaaS-Startups-282e26f7-f543-4ae4-a777-ac306c08cce8.png)](https://nextjstemplates.com/templates/saas-starter-startup)
+## Features
 
-### [🚀 View Free Demo](https://startup.nextjstemplates.com/)
+- **React 18**: Harness the latest capabilities of React for enhanced performance and developer experience.
 
-### [🚀 View Pro Demo](https://startup-pro.nextjstemplates.com/)
+- **Next.js 13**: Empower your website with server-side rendering, optimized routing, and other Next.js features.
 
-### [📦 Download](https://nextjstemplates.com/templates/startup)
+- **Tailwind CSS**: Craft beautiful, responsive designs with Tailwind CSS's utility-first approach.
 
-### [🔥 Get Pro](https://nextjstemplates.com/templates/saas-starter-startup)
-
-### [🔌 Documentation](https://nextjstemplates.com/docs)
-
-### ⚡ Deploy Now
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fstartup-nextjs)
-
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/startup-nextjs)
-
-
-### 📄 License
-Startup is 100% free and open-source, feel free to use with your personal and commercial projects.
-
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
-
-### ✨ Explore and Download - Free [Next.js Templates](https://nextjstemplates.com)
+- **Light/Dark Mode**: Let users choose between light and dark modes to suit their preferences.
