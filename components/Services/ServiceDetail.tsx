@@ -42,7 +42,7 @@ const ServiceDetail = (props: {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-center">
+          <div className="mt-2 flex items-center justify-center">
             <Link href="/contact/">
               <button className="flex w-full  items-center justify-center rounded-md bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
                 Book Now
