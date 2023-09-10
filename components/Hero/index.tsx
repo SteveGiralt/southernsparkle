@@ -15,12 +15,13 @@ const Hero = () => {
                 className="wow fadeInUp mx-auto max-w-[800px] text-center"
                 data-wow-delay=".2s"
               >
-                <div className="mt-[-200px] mb-[-150px] flex flex-col items-center justify-center space-y-4 sm:mt-0 sm:mb-0 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <div className="flex flex-col items-center justify-center space-y-4 sm:mt-0 sm:mb-0 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Image
                     src="/images/logo/logo-hero.png"
                     alt="Southern Sparkle Logo"
-                    height={500}
-                    width={500}
+                    height={623}
+                    width={1000}
+                    className="mb-4"
                   />
                 </div>
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
