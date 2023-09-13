@@ -34,7 +34,7 @@ const ServiceDetail = (props: {
               >
                 <Image
                   src={image}
-                  alt="Neurotoxin Services"
+                  alt={title}
                   height={imageDimensions.height}
                   width={imageDimensions.width}
                   className="mx-auto max-w-full lg:mr-0"
@@ -44,7 +44,7 @@ const ServiceDetail = (props: {
           </div>
           <div className="mt-2 flex items-center justify-center">
             <Link href="/contact/">
-              <button className="flex w-full  items-center justify-center rounded-md bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+              <button className="flex w-full items-center justify-center rounded-md bg-dark p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
                 Book Now
               </button>
             </Link>

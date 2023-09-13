@@ -55,7 +55,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
-          <svg
+          {/* <svg
             width="450"
             height="556"
             viewBox="0 0 450 556"
@@ -190,7 +190,7 @@ const Hero = () => {
                 <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
               </linearGradient>
             </defs>
-          </svg>
+          </svg> */}
         </div>
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           <svg

@@ -63,8 +63,8 @@ const AboutSectionOne = () => {
                 <Image
                   src="/images/about/renee2.jpg"
                   alt="About Renee"
-                  height={960}
-                  width={640}
+                  height={982}
+                  width={740}
                   className="mx-auto max-w-full lg:mr-0"
                 />
               </div>
