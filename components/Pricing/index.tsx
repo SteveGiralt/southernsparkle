@@ -24,7 +24,7 @@ const Pricing = () => {
             price={isMonthly ? "40" : "120"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Recharge your vitality and enhance your well-being."
-            image={"/images/services/iv_therapy.jpg"}
+            image={"/images/services/iv_therapy.png"}
           >
             <OfferList text="Boosts Energy and Vitality" status="active" />
             <OfferList text="Revitalizes Skin and Complexion" status="active" />
@@ -40,7 +40,7 @@ const Pricing = () => {
             price={isMonthly ? "399" : "789"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Rediscover Youthful Radiance with Neurotoxin Treatments."
-            image={"/images/services/botox.jpg"}
+            image={"/images/services/botox.png"}
           >
             <OfferList text="Reduces Fine Lines and Wrinkles" status="active" />
             <OfferList
@@ -59,7 +59,7 @@ const Pricing = () => {
             price={isMonthly ? "589" : "999"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Revitalize Your Natural Beauty with Dermal Fillers."
-            image={"/images/services/filler.jpg"}
+            image={"/images/services/filler.png"}
           >
             <OfferList text="Restores Facial Volume" status="active" />
             <OfferList
