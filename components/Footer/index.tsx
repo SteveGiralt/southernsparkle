@@ -110,7 +110,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="email:renee@southernsparkle.me"
+                      href="mailto:renee@southernsparkle.me"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
