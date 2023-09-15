@@ -30,10 +30,10 @@ const Hero = () => {
                 </h1>
                 <p className="dark:text-white dark:opacity-90 mb-12 text-base font-medium !leading-relaxed text-black sm:text-lg md:text-xl">
                   Southern Sparkle Aesthetics is your haven for unlocking inner
-                  radiance and confidence. Our expert aestheticians offer
+                  radiance and confidence. With an expert aesthetician to offer
                   personalized treatments, from rejuvenating facials to
                   revitalizing IV therapy, ensuring you shine your brightest.
-                  Relax in our luxurious sanctuary and discover your unique,
+                  Relax in a luxurious sanctuary and discover your unique,
                   natural beauty. Your journey to self-discovery starts here.
                 </p>
               </div>

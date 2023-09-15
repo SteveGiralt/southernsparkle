@@ -12,7 +12,7 @@ const Pricing = () => {
       <div className="container">
         <SectionTitle
           title="Our Services"
-          paragraph="Experience the transformation with our range of personalized beauty and wellness services at Southern Sparkle Aesthetics."
+          paragraph="In collaboration with The Spa at CPR Fitness, we are proud to offer massages and esthetic beauty treatments in addition to injectables. Experience the transformation with a wide range of personalized beauty and wellness services at Southern Sparkle Aesthetics."
           center
           width="665px"
         />

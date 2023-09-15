@@ -25,33 +25,26 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Meet Renee, RN, Nurse Injector, and Founder of Southern Sparkle Aesthetics"
-                paragraph="Bringing 20 Years of Nursing Expertise and a Heart Full of Compassion to Every Treatment
+                paragraph="Bringing 21 Years of Nursing Expertise and a Heart Full of Compassion to Every Treatment
                 
-                Welcome to Southern Sparkle Aesthetics, where beauty meets healthcare, and every smile shines a little brighter. At the heart of our practice is the dedicated and talented nurse injector, Renee."
+                Welcome to Southern Sparkle Aesthetics, where beauty meets healthcare, and every smile shines a little brighter. At the heart of the practice is the dedicated and talented nurse injector, Renee."
                 mb="44px"
               />
               <SectionTitle
                 title="A Journey of Compassion and Expertise"
                 paragraph="Renee's journey in healthcare began two decades ago when she embarked on her nursing career. With unwavering dedication and a genuine passion for helping others, she has touched countless lives through her work as a registered nurse. Over the years, she honed her skills, always striving for excellence in patient care.
                 
-                But Renee's story doesn't stop there. She's also a loving mother of six, embodying the values of care, patience, and nurturing in her personal life as well. Her nurturing spirit extends to her patients, creating a warm and welcoming environment at Southern Sparkle Aesthetics.
-                
-                
-                
-
-                
-                
-                "
+                But Renee's story doesn't stop there. She's also a loving mother of six, embodying the values of care, patience, and nurturing in her personal life as well. Her nurturing spirit extends to her patients, creating a warm and welcoming environment at Southern Sparkle Aesthetics.                "
               />
               <SectionTitle
                 title="Aesthetic Artistry and Professionalism"
-                paragraph="Renee's journey led her to the captivating world of aesthetics, where science meets artistry. As a nurse injector, she combines her extensive medical background with an eye for beauty to deliver stunning results. Renee believes that confidence is the key to inner and outer radiance, and she's here to help you unlock it.              With her 20 years of nursing experience, Renee understands the importance of trust in healthcare. At Southern Sparkle Aesthetics, she puts your well-being above all else, ensuring that every procedure is safe, comfortable, and tailored to your unique needs."
+                paragraph="Renee's journey led her to the captivating world of aesthetics, where science meets artistry. As a nurse injector, she combines her extensive medical background with an eye for beauty to deliver stunning results. Renee believes that confidence is the key to inner and outer radiance, and she's here to help you unlock it. With over 20 years of nursing experience, Renee understands the importance of trust in healthcare. At Southern Sparkle Aesthetics, she puts your well-being above all else, ensuring that every procedure is safe, comfortable, and tailored to your unique needs."
               />
               <SectionTitle
                 title="Your Partner on the Path to Radiance"
-                paragraph="Renee's commitment to excellence, backed by years of medical expertise, ensures that you're in capable hands. Whether you're seeking facial rejuvenation, skin enhancement, or any of our specialized treatments, Renee is your partner on the path to radiant confidence.
+                paragraph="Renee's commitment to excellence, backed by years of medical expertise, ensures that you're in capable hands. Whether you're seeking facial rejuvenation, skin enhancement, or any of her specialized treatments, Renee is your partner on the path to radiant confidence.
                 
-                We invite you to experience the Southern Sparkle difference, where professionalism, compassion, and expertise converge to make your aesthetic journey truly extraordinary. Explore our range of services and embark on a transformative experience guided by Renee's skilled hands and caring heart.
+                We invite you to experience the Southern Sparkle difference, where professionalism, compassion, and expertise converge to make your aesthetic journey truly extraordinary. Explore a range of services and embark on a transformative experience guided by Renee's skilled hands and caring heart.
                 
                 Thank you for choosing Southern Sparkle Aesthetics. We look forward to helping you discover your inner and outer sparkle with Renee by your side."
               />

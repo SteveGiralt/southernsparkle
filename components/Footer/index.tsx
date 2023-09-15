@@ -101,11 +101,11 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="https://maps.app.goo.gl/wHZQAgmqtVF8koeG7"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      321 S. W. First Second Ave. Sweet Tea, GA 86232{" "}
+                      203 S. Circle Drive Swainsboro, GA 30401{" "}
                     </a>
                   </li>
                   <li>
