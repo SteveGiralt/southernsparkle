@@ -110,11 +110,11 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="mailto:renee@southernsparkle.me"
+                      href="/contact"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      renee@southernsparkle.me{" "}
+                      Contact Me!
                     </a>
                   </li>
                 </ul>
