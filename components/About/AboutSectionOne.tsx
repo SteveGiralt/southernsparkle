@@ -27,7 +27,7 @@ const AboutSectionOne = () => {
                 title="Meet Renee, Your Aesthetic Maven and Founder"
                 paragraph="Renee is the heart and soul behind Southern Sparkle Aesthetics. With a passion for enhancing natural beauty and promoting holistic wellness, she brings a unique blend of expertise and compassion to every client's journey.
                 
-                As a skilled nurse injector, Renee has honed her craft to perfection, specializing in neurotoxins and dermal fillers. Her commitment to precision and safety ensures that each treatment is a work of art, restoring confidence and revealing the best version of you.
+                With 21 years of nursing experience, and an advanced education in nursing; Renee has honed her craft to perfection, specializing in neurotoxins and dermal fillers. Her commitment to precision and safety ensures that each treatment is a work of art, restoring confidence and revealing the best version of you.
                 
                 Beyond her technical prowess, Renee is a warm and caring professional who believes in the power of personalized care. She listens attentively to your desires, ensuring that every visit is a tailored experience, just for you.
                 
