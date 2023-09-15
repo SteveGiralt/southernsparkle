@@ -25,9 +25,9 @@ const Hero = () => {
                     priority
                   />
                 </div>
-                {/* <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Southern Sparkle Aesthetics
-                </h1> */}
+                <h1 className="dark:text-white mb-5 text-3xl font-bold leading-tight text-black sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                  Where Beauty Blossoms, Confidence Shines
+                </h1>
                 <p className="dark:text-white dark:opacity-90 mb-12 text-base font-medium !leading-relaxed text-black sm:text-lg md:text-xl">
                   Southern Sparkle Aesthetics is your haven for unlocking inner
                   radiance and confidence. Our expert aestheticians offer
