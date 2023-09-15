@@ -9,7 +9,7 @@ const ContactForm = (props: {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formData.append("access_key", "faf52ab1-671e-46c5-b455-2c414a767de6");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
