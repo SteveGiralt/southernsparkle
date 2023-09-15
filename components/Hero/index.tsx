@@ -22,6 +22,7 @@ const Hero = () => {
                     height={272}
                     width={1000}
                     className="mb-10 mt-20"
+                    priority
                   />
                 </div>
                 {/* <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
@@ -46,6 +47,7 @@ const Hero = () => {
             width={1920}
             alt="Sparkles as Background"
             className="opacity-70 2xl:opacity-60"
+            priority
           />
         </div>
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
