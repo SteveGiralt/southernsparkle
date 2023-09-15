@@ -11,7 +11,7 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Our Services"
+          title="Featured Services"
           paragraph="In collaboration with The Spa at CPR Fitness, we are proud to offer massages and esthetic beauty treatments in addition to injectables. Experience the transformation with a wide range of personalized beauty and wellness services at Southern Sparkle Aesthetics."
           center
           width="665px"
