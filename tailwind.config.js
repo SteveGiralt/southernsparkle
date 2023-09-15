@@ -5,7 +5,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: "class",
+  darkMode: "false",
   theme: {
     container: {
       center: true,
@@ -19,7 +19,7 @@ module.exports = {
       dark: "#1D2144",
       primary: "#10a193",
       yellow: "#FBB040",
-      "body-color": "#959CB1",
+      "body-color": "#000000", //Main Text Color
     },
     screens: {
       xs: "450px",

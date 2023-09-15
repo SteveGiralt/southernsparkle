@@ -15,7 +15,7 @@ const Hero = () => {
                 className="wow fadeInUp mx-auto max-w-[800px] text-center"
                 data-wow-delay=".2s"
               >
-                <div className="flex flex-col items-center justify-center space-y-4 sm:mt-0 sm:mb-0 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <div className="flex flex-col items-center justify-center space-y-4 sm:mt-20 sm:mb-0 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Image
                     src="/images/logo/logo-no-background.png"
                     alt="Southern Sparkle Logo"
@@ -27,7 +27,7 @@ const Hero = () => {
                 {/* <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Southern Sparkle Aesthetics
                 </h1> */}
-                <p className="mb-12 text-base font-medium !leading-relaxed text-black dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
+                <p className="dark:text-white dark:opacity-90 mb-12 text-base font-medium !leading-relaxed text-black sm:text-lg md:text-xl">
                   Southern Sparkle Aesthetics is your haven for unlocking inner
                   radiance and confidence. Our expert aestheticians offer
                   personalized treatments, from rejuvenating facials to
@@ -40,7 +40,13 @@ const Hero = () => {
           </div>
         </div>
         <div className="absolute top-10 right-0 z-[-1] mb-5 opacity-70 lg:top-0 lg:opacity-100">
-          <img src="/images/hero/header.png" />
+          <Image
+            src="/images/hero/header.png"
+            height={1080}
+            width={1920}
+            alt="Sparkles as Background"
+            className="opacity-70 2xl:opacity-60"
+          />
         </div>
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
