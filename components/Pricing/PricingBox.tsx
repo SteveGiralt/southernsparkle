@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const PricingBox = (props: {
   price: string;
-  duration: string;
+
   packageName: string;
   subtitle: string;
   image: string;
@@ -12,7 +12,7 @@ const PricingBox = (props: {
 }) => {
   const {
     price,
-    duration,
+
     packageName,
     subtitle,
     image,
@@ -23,21 +23,27 @@ const PricingBox = (props: {
   return (
     <div className="w-full">
       <div
-        className="wow fadeInUp relative z-10 rounded-md bg-white px-8 py-10 shadow-signUp dark:bg-[#1D2144]"
+        className="wow fadeInUp dark:bg-[#1D2144] relative z-10 rounded-md bg-white px-8 py-10 shadow-signUp"
         data-wow-delay=".1s"
       >
         <div className="flex items-center justify-between">
-          <h4 className="mx-auto mb-2 text-center text-xl font-bold text-dark dark:text-white">
+          <h4 className="dark:text-white mx-auto  text-center text-xl font-bold text-dark">
             {packageName}
           </h4>
         </div>
+        <div className="flex items-center justify-between">
+          <h4 className="dark:text-white mx-auto mb-2 text-center text-sm text-dark">
+            {price}
+          </h4>
+        </div>
+
         {image && (
           <div className="mb-4 flex justify-center">
             <Image height={457} width={640} src={image} alt={packageName} />
           </div>
         )}
         <p className="mb-7 text-base text-body-color">{subtitle}</p>
-        <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
+        <div className="dark:border-white dark:border-opacity-10 mb-8 border-b border-body-color border-opacity-10 pb-8">
           <Link href={detailPage}>
             <button className="flex w-full items-center justify-center rounded-md bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
               Learn More

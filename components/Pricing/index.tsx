@@ -3,6 +3,7 @@ import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
+import formatCurrency from "@/utils/formatCurrency";
 
 const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
@@ -12,7 +13,7 @@ const Pricing = () => {
       <div className="container">
         <SectionTitle
           title="Featured Services"
-          paragraph="In collaboration with The Spa at CPR Fitness, we are proud to offer massages and esthetic beauty treatments in addition to injectables. Experience the transformation with a wide range of personalized beauty and wellness services at Southern Sparkle Aesthetics."
+          paragraph="In collaboration with the spa at CPR Fitness, Southern Sparkle Aesthetics will be offering neurotoxins, dermal fillers, and IV vitamin therapy. Experience the transformation with a wide range of personalized beauty and wellness services at Southern Sparkle Aesthetics."
           center
           width="665px"
         />
@@ -21,8 +22,8 @@ const Pricing = () => {
           <PricingBox
             packageName="IV Therapy"
             detailPage="/services/iv-therapy/"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
+            // price={`${formatCurrency(50)} per Unit`}
+            price="Pricing TBD"
             subtitle="Recharge your vitality and enhance your well-being."
             image={"/images/services/iv_therapy.png"}
           >
@@ -37,8 +38,7 @@ const Pricing = () => {
           <PricingBox
             packageName="Neurotoxins"
             detailPage="/services/neurotoxins/"
-            price={isMonthly ? "399" : "789"}
-            duration={isMonthly ? "mo" : "yr"}
+            price={`${formatCurrency(13)} per Unit`}
             subtitle="Rediscover Youthful Radiance with Neurotoxin Treatments."
             image={"/images/services/botox.png"}
           >
@@ -56,8 +56,8 @@ const Pricing = () => {
           <PricingBox
             packageName="Dermal Fillers"
             detailPage="/services/dermal-fillers/"
-            price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"}
+            // price={`${formatCurrency(100)} per Treatment`}
+            price="Pricing TBD"
             subtitle="Revitalize Your Natural Beauty with Dermal Fillers."
             image={"/images/services/filler.png"}
           >

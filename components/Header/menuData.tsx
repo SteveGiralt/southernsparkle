@@ -44,5 +44,30 @@ const menuData: Menu[] = [
       },
     ],
   },
+  {
+    id: 5,
+    title: "After Care Instructions",
+    newTab: false,
+    submenu: [
+      {
+        id: 44,
+        title: "Neurotoxins",
+        path: "/aftercare/neurotoxins/",
+        newTab: false,
+      },
+      {
+        id: 45,
+        title: "Dermal Fillers",
+        path: "/aftercare/dermal-fillers/",
+        newTab: false,
+      },
+      {
+        id: 46,
+        title: "IV Therapy",
+        path: "/aftercare/iv-therapy/",
+        newTab: false,
+      },
+    ],
+  },
 ];
 export default menuData;
