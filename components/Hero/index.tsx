@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import sparkleHeader from "../../public/images/hero/header.png";
 
 const Hero = () => {
   return (
@@ -42,11 +43,13 @@ const Hero = () => {
         </div>
         <div className="absolute top-10 right-0 z-[-1] mb-5 opacity-70 lg:top-0 lg:opacity-100">
           <Image
-            src="/images/hero/header.png"
-            height={1080}
-            width={1920}
+            src={sparkleHeader}
+            // src="/images/hero/header.png"
+            // height={1080}
+            // width={1920}
+            // fill
             alt="Sparkles as Background"
-            className="opacity-70 2xl:opacity-60"
+            className="w-screen opacity-70 2xl:opacity-60"
             priority
           />
         </div>
