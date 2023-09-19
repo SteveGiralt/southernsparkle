@@ -17,13 +17,13 @@ module.exports = {
       white: "#FFFFFF",
       black: "#090E34",
       dark: "#1D2144",
-      primary: "#10a193",
+      primary: "#ce74a7",
       yellow: "#FBB040",
       "body-color": "#000000", //Main Text Color
     },
     screens: {
       xs: "450px",
-      // => @media (min-width: 450px) { ... }
+      // => @media (min-width: 450px) { ... }z
 
       sm: "575px",
       // => @media (min-width: 576px) { ... }
