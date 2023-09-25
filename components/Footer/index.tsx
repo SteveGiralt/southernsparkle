@@ -93,16 +93,14 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
+            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-4/12">
               <div className="mb-12 lg:mb-16">
-                <h2 className="dark:text-white mb-10 text-xl font-bold text-black">
-                  Contact
-                </h2>
+                <h2 className=" mb-3 text-xl font-bold text-black">Contact</h2>
                 <ul>
                   <li>
                     <a
                       href="https://maps.app.goo.gl/wHZQAgmqtVF8koeG7"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="inline-block text-base font-medium text-body-color hover:text-white"
                     >
                       {" "}
                       203 S. Circle Drive Swainsboro, GA 30401{" "}
@@ -110,11 +108,19 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
+                      href="tel:+14782490406"
+                      className="inline-block text-base font-medium text-body-color hover:text-white"
+                    >
+                      (478) 249-0406 (Call or Text)
+                    </a>
+                  </li>
+                  <li>
+                    <a
                       href="/contact"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="inline-block text-base font-medium text-body-color hover:text-white"
                     >
                       {" "}
-                      Contact Me!
+                      Online Contact Form
                     </a>
                   </li>
                 </ul>
