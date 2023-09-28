@@ -44,8 +44,10 @@ const AboutSectionOne = () => {
                 <Image
                   src="/images/about/renee2.jpg"
                   alt="About Renee"
-                  height={982}
-                  width={740}
+                  // height={982}
+                  // width={740}
+                  objectFit={"contain"}
+                  fill
                   className="mx-auto max-w-full lg:mr-0"
                 />
               </div>

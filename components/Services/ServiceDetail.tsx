@@ -35,8 +35,10 @@ const ServiceDetail = (props: {
                 <Image
                   src={image}
                   alt={title}
-                  height={imageDimensions.height}
-                  width={imageDimensions.width}
+                  fill
+                  objectFit={"contain"}
+                  // height={imageDimensions.height}
+                  // width={imageDimensions.width}
                   className="mx-auto max-w-full lg:mr-0"
                 />
               </div>
