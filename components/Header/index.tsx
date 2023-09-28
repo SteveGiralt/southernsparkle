@@ -104,6 +104,7 @@ const Header = () => {
                       <li key={menuItem.id} className="group relative">
                         {menuItem.path ? (
                           <Link
+                            onClick={() => setNavbarOpen(false)}
                             href={menuItem.path}
                             className={`dark:text-white flex py-2 text-base text-dark group-hover:opacity-70 lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                           >
@@ -132,6 +133,7 @@ const Header = () => {
                             >
                               {menuItem.submenu.map((submenuItem) => (
                                 <Link
+                                  onClick={() => setNavbarOpen(false)}
                                   href={submenuItem.path}
                                   key={submenuItem.id}
                                   className="dark:text-white block rounded py-2.5 text-sm text-dark hover:opacity-70 lg:px-3"
