@@ -23,7 +23,7 @@ const Pricing = () => {
             packageName="IV Therapy"
             detailPage="/services/iv-therapy/"
             // price={`${formatCurrency(50)} per Unit`}
-            price="Pricing TBD"
+            price="From $75"
             subtitle="Recharge your vitality and enhance your well-being."
             image={"/images/services/iv_therapy.png"}
           >
