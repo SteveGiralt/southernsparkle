@@ -11,12 +11,14 @@ const ServiceDetail = (props: {
     width: number;
   };
   children?: any;
+  formURL?: string;
 }) => {
   const {
     title,
     paragraph,
     image,
     imageDimensions = { height: 960, width: 640 },
+    formURL,
     children,
   } = props;
 
@@ -47,12 +49,27 @@ const ServiceDetail = (props: {
             </div>
           </div>
           {children}
-          <div className="mt-2 flex items-center justify-center">
-            <Link href="https://reneebrinson.setmore.com/">
-              <button className="flex w-full items-center justify-center rounded-md bg-dark p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-                Book Now
-              </button>
-            </Link>
+          <div className="mt-2 flex justify-center">
+            <div className="mx-2">
+              <Link href="https://reneebrinson.setmore.com/">
+                <button className="flex h-full items-center justify-center rounded-md bg-dark p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                  Book Now
+                </button>
+              </Link>
+            </div>
+            {formURL && (
+              <div className="mx-2">
+                <Link
+                  href={formURL}
+                  target="_blank"
+                  download="SouthernSparkleLLC"
+                >
+                  <button className="flex h-full items-center justify-center rounded-md bg-dark p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                    Forms
+                  </button>
+                </Link>
+              </div>
+            )}
           </div>
         </div>
       </div>
