@@ -16,6 +16,7 @@ const IVTherapyDetail = (props) => {
         <Link
           href={`/images/services/IV-Bar-Menu.png`}
           download="SouthernSparkleIVMenu"
+          target="_blank"
         >
           <Image src={IVMenu} alt="IV Bar Menu" />
         </Link>
