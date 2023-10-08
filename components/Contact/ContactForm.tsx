@@ -1,4 +1,5 @@
 "use client";
+const accessKey = process.env.WEB3FORMS_ACCESS_KEY;
 
 const ContactForm = (props: {
   children: React.ReactNode;
@@ -9,7 +10,7 @@ const ContactForm = (props: {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "faf52ab1-671e-46c5-b455-2c414a767de6");
+    formData.append("access_key", accessKey);
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
