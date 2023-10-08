@@ -30,12 +30,9 @@ const Hero = () => {
                   Where Beauty Blossoms, Confidence Shines
                 </h1>
                 <p className="dark:text-white dark:opacity-90 mb-12 text-base font-medium !leading-relaxed text-black sm:text-lg md:text-xl">
-                  Southern Sparkle Aesthetics is your haven for unlocking inner
-                  radiance and confidence. With an expert aesthetician to offer
-                  personalized treatments, from rejuvenating facials to
-                  revitalizing IV therapy, ensuring you shine your brightest.
-                  Relax in a luxurious sanctuary and discover your unique,
-                  natural beauty. Your journey to self-discovery starts here.
+                  Your beauty is in the hands of an RN with over 20 years of
+                  experience. Creating beautiful smiles, smooth skin, and a
+                  boosted metabolism, come try out our services.
                 </p>
               </div>
             </div>
