@@ -10,12 +10,14 @@ const ServiceDetail = (props: {
     height: number;
     width: number;
   };
+  children?: any;
 }) => {
   const {
     title,
     paragraph,
     image,
     imageDimensions = { height: 960, width: 640 },
+    children,
   } = props;
 
   return (
@@ -44,6 +46,7 @@ const ServiceDetail = (props: {
               </div>
             </div>
           </div>
+          {children}
           <div className="mt-2 flex items-center justify-center">
             <Link href="https://reneebrinson.setmore.com/">
               <button className="flex w-full items-center justify-center rounded-md bg-dark p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">

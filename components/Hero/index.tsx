@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import sparkleHeader from "../../public/images/hero/header.png";
+import mainLogo from "../../public/images/logo/logo-no-background.png";
 
 const Hero = () => {
   return (
@@ -13,16 +14,14 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div
-                className="wow fadeInUp mx-auto max-w-[800px] text-center"
+                className="wow fadeInUp mx-auto max-w-[600px] text-center"
                 data-wow-delay=".2s"
               >
-                <div className="flex flex-col items-center justify-center space-y-4 sm:mt-20 sm:mb-0 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <div className="flex flex-col items-center justify-center space-y-4 sm:mt-5 sm:mb-0 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Image
-                    src="/images/logo/logo-no-background.png"
+                    src={mainLogo}
                     alt="Southern Sparkle Logo"
-                    height={272}
-                    width={1000}
-                    className="mb-10 mt-20"
+                    className="mb-10"
                     priority
                   />
                 </div>
