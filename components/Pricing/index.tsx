@@ -38,7 +38,7 @@ const Pricing = () => {
           <PricingBox
             packageName="Neurotoxins"
             detailPage="/services/neurotoxins/"
-            price={`${formatCurrency(13)} per Unit`}
+            price={`${formatCurrency(11)} per Unit`}
             subtitle="Rediscover Youthful Radiance with Neurotoxin Treatments."
             image={"/images/services/botox.png"}
           >
