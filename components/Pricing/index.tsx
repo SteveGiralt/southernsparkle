@@ -57,7 +57,7 @@ const Pricing = () => {
             packageName="Dermal Fillers"
             detailPage="/services/dermal-fillers/"
             // price={`${formatCurrency(100)} per Treatment`}
-            price="Pricing TBD"
+            price="Contact For A Quote"
             subtitle="Revitalize Your Natural Beauty with Dermal Fillers."
             image={"/images/services/filler.png"}
           >
@@ -76,7 +76,7 @@ const Pricing = () => {
             packageName="Prescription Weight Loss"
             detailPage="/services/weight-loss/"
             // price={`${formatCurrency(100)} per Treatment`}
-            price="Pricing TBD"
+            price="Contact For A Quote"
             subtitle="Discover Your Path to Lasting Weight Management"
             image={"/images/services/weight-loss.jpg"}
           >
