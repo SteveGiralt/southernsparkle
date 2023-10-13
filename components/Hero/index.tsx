@@ -25,7 +25,7 @@ const Hero = () => {
                     priority
                   />
                 </div>
-                <h1 className="dark:text-white mb-5 text-3xl font-bold leading-tight text-black sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                <h1 className="dark:text-white mb-5 font-kaushan text-3xl font-bold leading-tight text-black sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Where Beauty Blossoms, Confidence Shines
                 </h1>
                 <p className="dark:text-white dark:opacity-90 mb-12 text-base font-medium !leading-relaxed text-black sm:text-lg md:text-xl">

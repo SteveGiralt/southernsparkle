@@ -29,7 +29,7 @@ const Footer = () => {
                     height={30}
                   /> */}
                 </Link>
-                <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
+                <p className="mb-9 font-kaushan text-base font-medium leading-relaxed text-body-color">
                   Where Beauty Blossoms, Confidence Shines
                 </p>
                 {/* <div className="flex items-center">
