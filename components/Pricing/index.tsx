@@ -98,7 +98,7 @@ const Pricing = () => {
             />
           </PricingBox>
           <PricingBox
-            packageName="Professional Dental Wightening"
+            packageName="Professional Dental Whitening"
             detailPage="/services/dental-whitening/"
             // price={`${formatCurrency(100)} per Treatment`}
             price="$75"
