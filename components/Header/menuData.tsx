@@ -40,6 +40,11 @@ const menuData: Menu[] = [
         path: "/services/weight-loss/",
         newTab: false,
       },
+      {
+        title: "Professional Dental Whitening",
+        path: "/services/dental-whitening/",
+        newTab: false,
+      },
     ],
   },
   {
