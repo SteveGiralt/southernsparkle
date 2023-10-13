@@ -9,11 +9,11 @@ const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
 
   return (
-    <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section id="pricing" className="relative z-10 py-8 md:py-10 lg:py-14">
       <div className="container">
         <SectionTitle
           title="Featured Services"
-          paragraph="In collaboration with the spa at CPR Fitness, Southern Sparkle Aesthetics will be offering neurotoxins, dermal fillers, and IV vitamin therapy. Experience the transformation with a wide range of personalized beauty and wellness services at Southern Sparkle Aesthetics."
+          paragraph="In collaboration with the spa at CPR Fitness, Southern Sparkle Aesthetics will be offering neurotoxins, dermal fillers, and IV vitamin therapy. In addition, we offer professional dental whitening as well as Semaglutide weight loss injections. Experience the transformation with a wide range of personalized beauty and wellness services at Southern Sparkle Aesthetics."
           center
           width="665px"
         />
@@ -73,23 +73,21 @@ const Pricing = () => {
             />
           </PricingBox>
           <PricingBox
-            packageName="Prescription Weight Loss"
+            packageName="Semaglutide Weight Loss"
             detailPage="/services/weight-loss/"
             // price={`${formatCurrency(100)} per Treatment`}
-            price="Contact For A Quote"
+            price="$300/month"
             subtitle="Discover Your Path to Lasting Weight Management"
             image={"/images/services/weight-loss.jpg"}
           >
-            <OfferList
-              text="Weight management programs designed to suit your goals."
-              status="active"
-            />
+            <OfferList text="Once Weekly Injections" status="active" />
             <OfferList
               text="Expert guidance and support from our experienced specialist"
               status="active"
             />
+
             <OfferList
-              text="Access to medically approved prescription weight loss solutions"
+              text="Administered by a professional RN"
               status="active"
             />
             <OfferList

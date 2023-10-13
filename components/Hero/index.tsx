@@ -8,7 +8,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
+        className="relative z-10 overflow-hidden pt-[120px] pb-8 md:pt-[150px] md:pb-[60px] xl:pt-[180px] xl:pb-[80px] 2xl:pt-[210px] 2xl:pb-[100px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
@@ -25,10 +25,10 @@ const Hero = () => {
                     priority
                   />
                 </div>
-                <h1 className="dark:text-white mb-5 font-kaushan text-3xl font-bold leading-tight text-black sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                <h1 className="dark:text-white mb-3 font-kaushan text-3xl font-bold leading-tight text-black sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Where Beauty Blossoms, Confidence Shines
                 </h1>
-                <p className="dark:text-white dark:opacity-90 mb-12 text-base font-medium !leading-relaxed text-black sm:text-lg md:text-xl">
+                <p className="dark:text-white dark:opacity-90 text-base font-medium !leading-relaxed text-black sm:text-lg md:text-xl">
                   Your beauty is in the hands of an RN with over 20 years of
                   experience. Creating beautiful smiles, smooth skin, and a
                   boosted metabolism, come try out our services.
