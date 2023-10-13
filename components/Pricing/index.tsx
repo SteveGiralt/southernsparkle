@@ -72,6 +72,52 @@ const Pricing = () => {
               status="active"
             />
           </PricingBox>
+          <PricingBox
+            packageName="Prescription Weight Loss"
+            detailPage="/services/weight-loss/"
+            // price={`${formatCurrency(100)} per Treatment`}
+            price="Pricing TBD"
+            subtitle="Discover Your Path to Lasting Weight Management"
+            image={"/images/services/weight-loss.jpg"}
+          >
+            <OfferList
+              text="Weight management programs designed to suit your goals."
+              status="active"
+            />
+            <OfferList
+              text="Expert guidance and support from our experienced specialist"
+              status="active"
+            />
+            <OfferList
+              text="Access to medically approved prescription weight loss solutions"
+              status="active"
+            />
+            <OfferList
+              text="Personalized monitoring and adjustments to your program"
+              status="active"
+            />
+          </PricingBox>
+          <PricingBox
+            packageName="Professional Dental Wightening"
+            detailPage="/services/dental-whitening/"
+            // price={`${formatCurrency(100)} per Treatment`}
+            price="$75"
+            subtitle="Unveil Your Radiant Smile"
+            image={"/images/services/whitening.png"}
+          >
+            <OfferList
+              text="Utilization of advanced technology and proven techniques"
+              status="active"
+            />
+            <OfferList
+              text="Solutions targeting stubborn stains, discoloration, and overall enhancement of dental aesthetics for a radiant, lasting impression"
+              status="active"
+            />
+            <OfferList
+              text="Revitalizes your smile, boosts self-confidence, and leaves you with a luminous and captivating appearance."
+              status="active"
+            />
+          </PricingBox>
         </div>
       </div>
 

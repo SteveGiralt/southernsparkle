@@ -101,7 +101,7 @@ const Header = () => {
                 >
                   <ul className="block lg:flex lg:space-x-12">
                     {menuData.map((menuItem, index) => (
-                      <li key={menuItem.id} className="group relative">
+                      <li key={menuItem.title} className="group relative">
                         {menuItem.path ? (
                           <Link
                             onClick={() => setNavbarOpen(false)}
@@ -133,9 +133,12 @@ const Header = () => {
                             >
                               {menuItem.submenu.map((submenuItem) => (
                                 <Link
-                                  onClick={() => setNavbarOpen(false)}
+                                  onClick={() => {
+                                    setNavbarOpen(false);
+                                    setOpenIndex(-1);
+                                  }}
                                   href={submenuItem.path}
-                                  key={submenuItem.id}
+                                  key={submenuItem.title}
                                   className="dark:text-white block rounded py-2.5 text-sm text-dark hover:opacity-70 lg:px-3"
                                 >
                                   {submenuItem.title}
