@@ -4,49 +4,62 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
   <loc>https://www.southernsparkle.me/</loc>
-  <lastmod>2023-09-18T23:23:15+00:00</lastmod>
+  <lastmod>2023-10-13T04:04:44+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.southernsparkle.me/about</loc>
-  <lastmod>2023-09-18T23:23:15+00:00</lastmod>
+  <lastmod>2023-10-13T04:04:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.southernsparkle.me/contact</loc>
-  <lastmod>2023-09-18T23:23:15+00:00</lastmod>
+  <lastmod>2023-10-13T04:04:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.southernsparkle.me/services/neurotoxins</loc>
-  <lastmod>2023-09-18T23:23:15+00:00</lastmod>
+  <lastmod>2023-10-13T04:04:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.southernsparkle.me/services/dermal-fillers</loc>
-  <lastmod>2023-09-18T23:23:15+00:00</lastmod>
+  <lastmod>2023-10-13T04:04:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.southernsparkle.me/services/iv-therapy</loc>
-  <lastmod>2023-09-18T23:23:15+00:00</lastmod>
+  <lastmod>2023-10-13T04:04:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.southernsparkle.me/services/weight-loss</loc>
+  <lastmod>2023-10-13T04:04:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.southernsparkle.me/aftercare/neurotoxins</loc>
-  <lastmod>2023-09-18T23:23:15+00:00</lastmod>
+  <lastmod>2023-10-13T04:04:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.southernsparkle.me/aftercare/dermal-fillers</loc>
-  <lastmod>2023-09-18T23:23:15+00:00</lastmod>
+  <lastmod>2023-10-13T04:04:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.southernsparkle.me/aftercare/iv-therapy</loc>
-  <lastmod>2023-09-18T23:23:15+00:00</lastmod>
+  <lastmod>2023-10-13T04:04:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.southernsparkle.me/services/dental-whitening</loc>
+  <lastmod>2023-10-13T04:04:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
