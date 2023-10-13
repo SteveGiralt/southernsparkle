@@ -51,7 +51,7 @@ const ServiceDetail = (props: {
           {children}
           <div className="mt-2 flex justify-center">
             <div className="mx-2">
-              <Link href="https://reneebrinson.setmore.com/">
+              <Link href="https://www.fresha.com/a/southern-sparkle-aesthetics-swainsboro-203-south-circle-drive-sgkvgq6d/booking?menu=true">
                 <button className="flex h-full items-center justify-center rounded-md bg-dark p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
                   Book Now
                 </button>
