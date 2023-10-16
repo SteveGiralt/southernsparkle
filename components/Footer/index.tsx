@@ -108,10 +108,10 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="tel:+14782490406"
+                      href="tel:+14782279044"
                       className="inline-block text-base font-medium text-body-color hover:text-white"
                     >
-                      (478) 249-0406 (Call or Text)
+                      (478) 227-9044 (Call or Text)
                     </a>
                   </li>
                   <li>
