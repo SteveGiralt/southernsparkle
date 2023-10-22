@@ -62,10 +62,7 @@ const Pricing = () => {
             image={"/images/services/filler.png"}
           >
             <OfferList text="Restores Facial Volume" status="active" />
-            <OfferList
-              text="Smoothes Wrinkles and Fine Lines"
-              status="active"
-            />
+            <OfferList text="Smooths Wrinkles and Fine Lines" status="active" />
             <OfferList text="Enhances Lips and Cheeks" status="active" />
             <OfferList
               text="Non-Surgical Facial Rejuvenation"
