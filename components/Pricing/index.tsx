@@ -70,9 +70,8 @@ const Pricing = () => {
             />
           </PricingBox>
           <PricingBox
-            packageName="Semaglutide Weight Loss"
+            packageName="Semaglutide (Ozempic) Weight Loss"
             detailPage="/services/weight-loss/"
-            // price={`${formatCurrency(100)} per Treatment`}
             price="$300/month"
             subtitle="Discover Your Path to Lasting Weight Management"
             image={"/images/services/weight-loss.jpg"}
@@ -83,6 +82,31 @@ const Pricing = () => {
               status="active"
             />
 
+            <OfferList
+              text="Administered by a professional RN"
+              status="active"
+            />
+            <OfferList
+              text="Personalized monitoring and adjustments to your program"
+              status="active"
+            />
+          </PricingBox>
+          <PricingBox
+            packageName="Tirzepatide (Mounjaro) Weight Loss"
+            detailPage="/services/weight-loss/"
+            price="$100/week"
+            subtitle="Discover Your Path to Lasting Weight Management"
+            image={"/images/services/weight-loss-2.jpg"}
+          >
+            <OfferList
+              text="$100/week for 6 weeks, then $125/week for the duration of treatment."
+              status="active"
+            />
+            <OfferList text="Once Weekly Injections" status="active" />
+            <OfferList
+              text="Expert guidance and support from our experienced specialist"
+              status="active"
+            />
             <OfferList
               text="Administered by a professional RN"
               status="active"
