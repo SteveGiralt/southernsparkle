@@ -94,12 +94,12 @@ const Pricing = () => {
           <PricingBox
             packageName="Tirzepatide (Mounjaro) Weight Loss"
             detailPage="/services/weight-loss/"
-            price="$100/week"
+            price="$125/week"
             subtitle="Discover Your Path to Lasting Weight Management"
             image={"/images/services/weight-loss-2.jpg"}
           >
             <OfferList
-              text="$100/week for 6 weeks, then $125/week for the duration of treatment."
+              text="$125/week for 6 weeks, then $150/week for the duration of treatment."
               status="active"
             />
             <OfferList text="Once Weekly Injections" status="active" />
@@ -120,7 +120,7 @@ const Pricing = () => {
             packageName="Professional Dental Whitening"
             detailPage="/services/dental-whitening/"
             // price={`${formatCurrency(100)} per Treatment`}
-            price="$75"
+            price="$99 (Includes 1 Touch Up)"
             subtitle="Unveil Your Radiant Smile"
             image={"/images/services/whitening.png"}
           >
