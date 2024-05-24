@@ -3,7 +3,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
-import { Kaushan_Script } from "@next/font/google";
+import { Kaushan_Script } from "next/font/google";
 import "../styles/index.css";
 
 const kaushan = Kaushan_Script({
